@@ -1,14 +1,146 @@
 /* Just some quick css to get the job done */
 
+@media only screen and (max-width:500px){
+
 body {
     font-family: 'Kanit', sans-serif;
     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
 
 }
 
+.heading {
+    margin-top: 10%;
+    letter-spacing: 3px;
+    color: #8797FF;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+    font-family: 'Concert One', cursive;
+    
+}
+
+.heading h1, h2 ,h3 {
+    font-size: 2em;
+}
+
 #countries{
     width: 60%;
     margin: 0 auto;
+    padding: 5px;
+    background-color: #e6dee9;
+    
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: 5px dashed slategray;
+    margin-bottom: 10%;
+}
+
+#flag img {
+    width: 10em;
+    height: 22em;
+    margin-left: 15%;
+}
+
+.card-body {
+    width: 100%;
+    /* margin-left:25%; */
+    /* text-align: center; */
+}
+
+.info {
+    /* margin-left: 5%; */
+    font-size: 2em;
+    letter-spacing: 6px;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+}
+}
+
+@media only screen and (max-width: 1024px) {
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+}
+
+.heading {
+    margin-top: 10%;
+    letter-spacing: 3px;
+    color: #8797FF;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+    font-family: 'Concert One', cursive;
+    
+}
+
+.heading h1, h2 ,h3 {
+    font-size: 2em;
+}
+
+#countries{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #e6dee9;
+    
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: 5px dashed slategray;
+    margin-bottom: 10%;
+}
+
+#flag img {
+    width: 15em;
+    height: 22em;
+    margin-left: 15%;
+}
+
+.card-body {
+    width: 100%;
+    overflow: auto;
+}
+
+.info {
+    padding-right: 1.5em;
+    margin-left: 3em;
+    font-size: 1em;
+    letter-spacing: 6px;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+}
+}
+
+@media only screen and (min-width: 1224px){
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+}
+
+.heading {
+    margin-top: 10%;
+    letter-spacing: 3px;
+    color: #8797FF;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+    font-family: 'Concert One', cursive;
+    
+}
+
+.heading h1, h2 ,h3 {
+    font-size: 300%;;
+}
+
+#countries{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #e6dee9;
+    
 }
 
 .card {
@@ -33,4 +165,58 @@ body {
     margin-left: 5%;
     font-size: 1.5em;
     letter-spacing: 6px;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
 }
+}
+
+/* body {
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+}
+
+.heading {
+    margin-top: 10%;
+    letter-spacing: 3px;
+    color: #8797FF;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+    font-family: 'Concert One', cursive;
+    
+}
+
+.heading h1, h2 ,h3 {
+    font-size: 300%;;
+}
+
+#countries{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #e6dee9;
+    
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: 5px dashed slategray;
+    margin-bottom: 10%;
+}
+
+#flag img {
+    width: 70%;
+    height: 22em;
+    margin-left: 15%;
+}
+
+.card-body {
+    margin-left:25%;
+}
+
+.info {
+    margin-left: 5%;
+    font-size: 1.5em;
+    letter-spacing: 6px;
+    text-shadow: -2px 0px 2px rgba(150, 150, 150, 1);
+} */
